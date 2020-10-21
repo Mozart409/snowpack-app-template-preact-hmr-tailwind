@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
@@ -13,10 +13,15 @@
     "@prefresh/snowpack": "^2.0.1",
     "@snowpack/app-scripts-preact": "^1.9.5",
     "@snowpack/plugin-dotenv": "^2.0.4",
+    "@snowpack/plugin-optimize": "^0.2.6",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/preact": "^2.0.0",
     "jest": "^26.2.2",
+    "postcss": "^8.1.2",
+    "postcss-cli": "^8.1.0",
     "prettier": "^2.0.5",
-    "snowpack": "^2.15.1"
-  }
+    "snowpack": "^2.15.1",
+    "tailwindcss": "^1.9.5"
+  },
+  "browserslist": "defaults, not ie 11"
 }
