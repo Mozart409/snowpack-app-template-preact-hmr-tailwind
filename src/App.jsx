@@ -9,20 +9,20 @@ function App() {
           Snowpack + Preact + HMR + Tailwind
         </h1>
         <div className="h-full flex flex-wrap md:flex-no-wrap justify-center items-center my-12 py-12 px-4 sm:px-8">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div>
               <img
-                className="w-40"
+                className="w-56 md:w-40"
                 src="./snowpack-logo-black.png"
                 alt="snowpack-logo"
               />
               <img
-                className="w-40 mt-2"
+                className="w-56 md:w-40 mt-2"
                 src="./snowpack-wordmark-black.png"
                 alt="snowpack-wordmark"
               />
             </div>
-            <div className="w-24 my-auto text-gray-700">
+            <div className="w-24 my-auto text-gray-700 hidden md:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -37,9 +37,24 @@ function App() {
                 />
               </svg>
             </div>
-            <img className="w-40" src="./preact.png" alt="preact" />
+            <img className="w-56 md:w-40" src="./preact.png" alt="preact" />
+            <div className="w-24 my-auto text-gray-700 hidden md:block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                />
+              </svg>
+            </div>
           </div>
-          <p>
+          <p className="mt-8 md:mt-0">
             Edit{' '}
             <code className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 bg-clip-text text-transparent">
               src/App.jsx
