@@ -2,11 +2,11 @@
 
 ## Performance
 
-![Performance](https://res.cloudinary.com/gooddeed/image/upload/v1603318662/spht.mozart409.space/lighthouse-metrics.com.png)
+![Performance](https://res.cloudinary.com/amdeus/image/upload/v1603318662/spht.mozart409.space/lighthouse-metrics.com.png)
 
 ## Preview
 
-![Preview](https://res.cloudinary.com/gooddeed/image/upload/v1603319007/spht.mozart409.space/preview.png)
+![Preview](https://res.cloudinary.com/amdeus/image/upload/v1603319007/spht.mozart409.space/preview.png)
 
 ## Available Scripts
 
