@@ -1,5 +1,11 @@
 # Snowpack Preact HMR Tailwind
 
+## Published via NPM
+
+```sh
+npx
+```
+
 ## Performance
 
 ![Performance](https://res.cloudinary.com/amdeus/image/upload/v1603318662/spht.mozart409.space/lighthouse-metrics.com.png)
