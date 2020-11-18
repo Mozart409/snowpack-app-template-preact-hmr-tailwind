@@ -23,5 +23,8 @@
     "snowpack": "^2.15.1",
     "tailwindcss": "^1.9.5"
   },
-  "browserslist": "defaults, not ie 11"
+  "browserslist": "defaults, not ie 11",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
