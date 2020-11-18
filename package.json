@@ -26,5 +26,6 @@
   "browserslist": "defaults, not ie 11",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "version": "0.0.3"
 }
