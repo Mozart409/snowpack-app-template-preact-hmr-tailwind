@@ -3,7 +3,7 @@
 ## Published via NPM
 
 ```sh
-npx
+npx dasd
 ```
 
 ## Performance
