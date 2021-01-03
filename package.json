@@ -31,7 +31,7 @@
     "access": "public"
   },
   "browserslist": "defaults, not ie 11",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "name": "snowpack-app-template-preact-hmr-tailwind",
   "main": "index.js",
   "homepage": "https://spht.mozart409.space/",
