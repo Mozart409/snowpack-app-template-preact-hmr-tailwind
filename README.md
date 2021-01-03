@@ -1,4 +1,4 @@
-# Snowpack Preact HMR Tailwind
+# Snowpack Preact HMR Tailwind Version 0.1.5
 
 ## Performance
 
