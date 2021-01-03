@@ -24,10 +24,17 @@
     "snowpack": "^2.18.5",
     "tailwindcss": "^2.0.2"
   },
+  "keywords": [
+    "csa-template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "browserslist": "defaults, not ie 11",
   "version": "0.0.9",
   "name": "snowpack-app-template-preact-hmr-tailwind",
   "main": "index.js",
+  "homepage": "https://spht.mozart409.space/",
   "repository": "https://github.com/Mozart409/snowpack-app-template-preact-hmr-tailwind.git",
   "author": "Amadeus <hey@mozart409.space>",
   "license": "MIT"
