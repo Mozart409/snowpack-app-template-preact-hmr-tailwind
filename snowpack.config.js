@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-postcss',
     '@prefresh/snowpack',
     [
       '@snowpack/plugin-optimize',
@@ -13,20 +14,11 @@ module.exports = {
       },
     ],
   ],
-  scripts: { 'build:css': 'postcss' },
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
-  },
+
   devOptions: {
     /* ... */
   },
   buildOptions: {
-    /* ... */
-  },
-  proxy: {
     /* ... */
   },
 
